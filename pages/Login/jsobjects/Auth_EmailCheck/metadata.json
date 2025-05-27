@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_b31578c5-722f-4040-9964-fd497064d575",
+  "id": "Login_Auth_EmailCheck",
+  "unpublishedCollection": {
+    "name": "Auth_EmailCheck",
+    "pageId": "Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

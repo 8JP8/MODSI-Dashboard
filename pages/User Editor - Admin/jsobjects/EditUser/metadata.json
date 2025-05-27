@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_687f4d23-1f08-4499-9f09-f66bb6ee1618",
+  "id": "User Editor - Admin_EditUser",
+  "unpublishedCollection": {
+    "name": "EditUser",
+    "pageId": "User Editor - Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_baf292fe-c186-4749-b5c3-e3f279e03cf9",
+  "id": "Role Assignment - Admin_RedirectBackToLoginPage",
+  "unpublishedCollection": {
+    "name": "RedirectBackToLoginPage",
+    "pageId": "Role Assignment - Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

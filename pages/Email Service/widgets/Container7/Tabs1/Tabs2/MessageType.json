@@ -1,0 +1,57 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultOptionValue": "other",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "r2n30m0c1w",
+  "labelText": "Tipo da Mensagem",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 22,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onOptionChange": "{{getMessages.run()}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 3.9111328125,
+  "parentId": "ezsqruqghn",
+  "parentRowSpace": 10,
+  "placeholderText": "Select a template",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Mensagem de Boas-Vindas\",\n    \"value\": \"welcome\"\n  },\n  {\n    \"label\": \"Feedback\",\n    \"value\": \"feedback\"\n  },\n  {\n    \"label\": \"Suporte\",\n    \"value\": \"support\"\n  },\n\t{\n\t\"label\": \"Nova Funcionalidade\",\n\t\"value\": \"feature\"\n\t},\n\t{\n\t\"label\": \"Anúncio de Vendas\",\n\t\"value\": \"sales\"\n\t},\n\t\t{\n\t\"label\": \"Outra Mensagem\",\n\t\"value\": \"other\"\n\t}\n]",
+  "topRow": 6,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "13zfb9pijr",
+  "widgetName": "MessageType"
+}

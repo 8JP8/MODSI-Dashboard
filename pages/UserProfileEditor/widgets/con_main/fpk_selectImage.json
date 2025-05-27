@@ -1,0 +1,64 @@
+{
+  "allowedFileTypes": [
+    "image/*"
+  ],
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 37,
+  "boxShadow": "none",
+  "buttonColor": "#1d4ed8",
+  "displayName": "FilePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.715769b31db833b32f40d9c90ec02de3.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "5azr302uj1",
+  "label": "Carregar Foto",
+  "leftColumn": 0,
+  "maxFileSize": "5",
+  "maxNumFiles": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 27,
+  "onFilesSelected": "{{ProfileEditor_FileUpload.run().then(() => {\n  UserProfileEditor_Image.fpk_selectImageonFilesSelected();\n}).catch(() => {});}}",
+  "originalBottomRow": 37,
+  "originalTopRow": 31,
+  "parentColumnSpace": 8.6650390625,
+  "parentId": "0bw2f7zunw",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 19,
+  "searchTags": [
+    "upload"
+  ],
+  "selectedFiles": [],
+  "tags": [
+    "Inputs"
+  ],
+  "topRow": 31,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "luh1nrsz9x",
+  "widgetName": "fpk_selectImage"
+}

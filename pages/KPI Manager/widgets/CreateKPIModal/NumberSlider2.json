@@ -1,0 +1,74 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "bottomRow": 34,
+  "defaultValue": "0",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "max"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": "{{(!EnableValue2Switch.isSwitchedOn)}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "g8kz33s6oo",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Valor 2",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 8,
+  "leftColumn": 1,
+  "marks": [
+    {
+      "label": "25%",
+      "value": 25
+    },
+    {
+      "label": "50%",
+      "value": 50
+    },
+    {
+      "label": "75%",
+      "value": 75
+    }
+  ],
+  "max": "{{ (Number(Input2.text)<=100) ? 100 : Input2.text }}",
+  "min": "0",
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 41,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "onChange": "{{}}",
+  "originalBottomRow": 34,
+  "originalTopRow": 29,
+  "parentColumnSpace": 6.9375,
+  "parentId": "zajs3vet3u",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 27,
+  "shouldScroll": false,
+  "shouldTruncate": false,
+  "showMarksLabel": false,
+  "sliderSize": "m",
+  "step": "0.1",
+  "tooltipAlwaysOn": false,
+  "topRow": 29,
+  "type": "NUMBER_SLIDER_WIDGET",
+  "version": 1,
+  "widgetId": "des91eqj99",
+  "widgetName": "NumberSlider2"
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_84bc70db-f668-4356-87fd-162d00d13e57",
+  "id": "Role Assignment - Admin_UserEditor_ConvertRoleNames",
+  "unpublishedCollection": {
+    "name": "UserEditor_ConvertRoleNames",
+    "pageId": "Role Assignment - Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

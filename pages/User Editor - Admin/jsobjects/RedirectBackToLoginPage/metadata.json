@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_e2ca7508-4615-4fec-a056-5a40587984eb",
+  "id": "User Editor - Admin_RedirectBackToLoginPage",
+  "unpublishedCollection": {
+    "name": "RedirectBackToLoginPage",
+    "pageId": "User Editor - Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

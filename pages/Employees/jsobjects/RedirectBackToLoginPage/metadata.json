@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_7070cb0b-d36d-4734-b575-aaab0d08033c",
+  "id": "Employees_RedirectBackToLoginPage",
+  "unpublishedCollection": {
+    "name": "RedirectBackToLoginPage",
+    "pageId": "Employees",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

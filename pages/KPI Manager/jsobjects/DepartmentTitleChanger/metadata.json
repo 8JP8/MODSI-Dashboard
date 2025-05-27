@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_314031c8-7933-43c8-b5e9-c787a638beaf",
+  "id": "KPI Manager_DepartmentTitleChanger",
+  "unpublishedCollection": {
+    "name": "DepartmentTitleChanger",
+    "pageId": "KPI Manager",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "departmentNames",
+        "value": "[\"Departamento Executivo\", \"Departamento Financeiro\", \"Departamento Tecnológico\", \"Departamento Contabilístico\", \"Departamento de R.H.\", \"Departamento de Operações\", \"Departamento de Marketing\", \"Departamento de Logística\"]"
+      }
+    ]
+  }
+}

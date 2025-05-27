@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_ebcb0466-7dec-4aa4-9b7b-d89acc6e0709",
+  "id": "KPI Visualizer_RedirectBackToLoginPage",
+  "unpublishedCollection": {
+    "name": "RedirectBackToLoginPage",
+    "pageId": "KPI Visualizer",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

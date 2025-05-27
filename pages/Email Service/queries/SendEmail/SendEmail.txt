@@ -1,0 +1,6 @@
+{
+  "from": "noreply@modsivr.pt",
+  "to": "{{appsmith.store.currentEmail_Target}}",
+  "subject": {{Title_Input.text ?? ""}},
+  "html": {{TextToSend.text}}
+}

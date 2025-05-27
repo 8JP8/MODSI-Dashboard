@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_d6b53fb8-f917-4a52-9120-04c4a71beada",
+  "id": "AI Chat_RedirectBackToLoginPage",
+  "unpublishedCollection": {
+    "name": "RedirectBackToLoginPage",
+    "pageId": "AI Chat",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

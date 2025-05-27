@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 37,
+  "boxShadow": "none",
+  "buttonColor": "#71717a",
+  "buttonVariant": "TERTIARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "right",
+  "iconName": "key",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cxrc1t62m7",
+  "leftColumn": 42,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 48,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onClick": "{{storeValue('authDefaultTab', 'Change Password').then(() => {\n  navigateTo('Login', {}, 'SAME_WINDOW');\n});}}",
+  "originalBottomRow": 37,
+  "originalTopRow": 31,
+  "parentColumnSpace": 21.574462890625,
+  "parentId": "0bw2f7zunw",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "Alterar Senha",
+  "topRow": 31,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "apsb5dmu9a",
+  "widgetName": "Button1"
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_20928775-3659-4234-ab01-3c38e5fc139c",
+  "id": "Login_Auth_PasswordCheck",
+  "unpublishedCollection": {
+    "name": "Auth_PasswordCheck",
+    "pageId": "Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

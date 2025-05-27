@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_670eb7bf-bede-4154-bcc8-5f947d027e1e",
+  "id": "KPI Manager_CreateKPIs",
+  "unpublishedCollection": {
+    "name": "CreateKPIs",
+    "pageId": "KPI Manager",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

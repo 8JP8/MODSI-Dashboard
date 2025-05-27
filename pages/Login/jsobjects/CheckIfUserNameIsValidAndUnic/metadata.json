@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_0dc19d66-f35f-44c6-aa61-f3648cdcae4b",
+  "id": "Login_CheckIfUserNameIsValidAndUnic",
+  "unpublishedCollection": {
+    "name": "CheckIfUserNameIsValidAndUnic",
+    "pageId": "Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

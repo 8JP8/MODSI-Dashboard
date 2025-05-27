@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_9d7b5bc3-9520-4f02-a2e6-37856e2fee7c",
+  "id": "KPI Visualizer_KPIToGraphConverter",
+  "unpublishedCollection": {
+    "name": "KPIToGraphConverter",
+    "pageId": "KPI Visualizer",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

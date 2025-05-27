@@ -1,0 +1,11 @@
+{
+	"kpi":{
+		"Name": "{{InputName.text}}",
+		"Description": "{{InputDescription.text}}",
+		"Value_1": {{Input1.text || NumberSlider1.value}},
+		"Value_2": {{EnableValue2Switch.isSwitchedOn ? (Input2.text || NumberSlider2.value) : null}},
+		"Unit": "{{InputUnits.text}}",
+		"ByProduct": {{(!EnableValue2Switch.isSwitchedOn)}}
+	},
+	"availableInDepartments": {{Departments.selectedOptionValues}}
+}

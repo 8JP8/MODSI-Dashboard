@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_09092c0d-dac6-45af-b8f4-24a02938be92",
+  "id": "Email Service_SendSMS",
+  "unpublishedCollection": {
+    "name": "SendSMS",
+    "pageId": "Email Service",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

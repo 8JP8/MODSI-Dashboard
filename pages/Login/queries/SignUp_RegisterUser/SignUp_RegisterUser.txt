@@ -1,0 +1,8 @@
+{
+  "Name": {{ inp_registerName.text }},
+  "Username": {{ inp_registerUserName.text }},
+  "Email": {{ inp_registerEmail.text }},
+  "Password": {{ appsmith.store.hashedPassword }},
+  "Salt": {{ appsmith.store.salt }},
+	"Image": "https://www.pngmart.com/files/21/Account-User-PNG-Clipart.png"
+}

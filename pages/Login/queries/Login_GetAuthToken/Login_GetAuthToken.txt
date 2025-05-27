@@ -1,0 +1,4 @@
+{
+	"Email": {{ inp_email.text }},
+	"Password": {{ appsmith.store.hashedPassword }}
+}

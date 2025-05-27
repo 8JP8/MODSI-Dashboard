@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{tbl_users.triggeredRow.Group == \"USER\" ? \"Y\" : \"N\"}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "2shc85lthy",
+  "label": "Permissão de Acesso",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 38,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 32,
+  "needsErrorInfo": false,
+  "options": [
+    {
+      "label": "Administrador",
+      "value": "Y"
+    },
+    {
+      "label": "Utilizador",
+      "value": "N"
+    }
+  ],
+  "originalBottomRow": 33,
+  "originalTopRow": 25,
+  "parentColumnSpace": 7.875,
+  "parentId": "zey7dt9vs1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 30,
+  "topRow": 25,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "ui7cv7s8d3",
+  "widgetName": "RadioGroup2"
+}

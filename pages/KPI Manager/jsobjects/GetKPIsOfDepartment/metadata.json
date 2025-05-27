@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_92371b6b-e48c-4ed4-a4e5-2404f359f106",
+  "id": "KPI Manager_GetKPIsOfDepartment",
+  "unpublishedCollection": {
+    "name": "GetKPIsOfDepartment",
+    "pageId": "KPI Manager",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

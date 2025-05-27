@@ -1,0 +1,212 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 24,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "configureMenuItems": {
+    "config": {
+      "iconName": "briefcase",
+      "id": "config",
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Executive"
+    },
+    "id": "config",
+    "label": "Configure menu items"
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "menuItems.menuItemhch8iab5tg.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem1.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem3.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItemzl3w7w80pz.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem538zjh10mu.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItemklozlsa719.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem2vdy6q302q.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem2.isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuItems.menuItemhch8iab5tg.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem1.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem2.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem3.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItemzl3w7w80pz.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem538zjh10mu.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItemklozlsa719.isDisabled"
+    },
+    {
+      "key": "menuItems.menuItem2vdy6q302q.isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItem3.onClick"
+    },
+    {
+      "key": "menuItems.menuItemzl3w7w80pz.onClick"
+    },
+    {
+      "key": "menuItems.menuItem538zjh10mu.onClick"
+    },
+    {
+      "key": "menuItems.menuItemklozlsa719.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2vdy6q302q.onClick"
+    },
+    {
+      "key": "menuItems.menuItemhch8iab5tg.onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "text-highlight",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "noc0rzort2",
+  "label": "Gestão de Indicadores",
+  "leftColumn": 3,
+  "menuColor": "#1e3a8a",
+  "menuItems": {
+    "menuItem1": {
+      "iconAlign": "left",
+      "iconName": "briefcase",
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": "{{ !((GetRoleDepartments.data.find(dep => dep.Id === 1) ?? false)|| appsmith.store.userGroup === \"ADMIN\") }}",
+      "isVisible": true,
+      "label": "Departamento Executivo",
+      "onClick": "{{navigateTo('KPI Manager', {}, 'SAME_WINDOW');\nstoreValue('Selected_Department', '1');}}",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "iconName": "chart",
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": "{{ !((GetRoleDepartments.data.find(dep => dep.Id === 2) ?? false)|| appsmith.store.userGroup === \"ADMIN\") }}",
+      "isVisible": true,
+      "label": "Departamento Financeiro",
+      "onClick": "{{navigateTo('KPI Manager', {}, 'SAME_WINDOW');\nstoreValue('Selected_Department', '2');}}",
+      "widgetId": ""
+    },
+    "menuItem2vdy6q302q": {
+      "iconName": "presentation",
+      "id": "menuItem2vdy6q302q",
+      "index": 6,
+      "isDisabled": "{{ !((GetRoleDepartments.data.find(dep => dep.Id === 7) ?? false)|| appsmith.store.userGroup === \"ADMIN\") }}",
+      "isVisible": true,
+      "label": "Departamento de Marketing",
+      "onClick": "{{navigateTo('KPI Manager', {}, 'SAME_WINDOW');\nstoreValue('Selected_Department', '7');}}",
+      "widgetId": "ngjsfhz1ty"
+    },
+    "menuItem3": {
+      "iconName": "desktop",
+      "id": "menuItem3",
+      "index": 2,
+      "isDisabled": "{{ !((GetRoleDepartments.data.find(dep => dep.Id === 3) ?? false)|| appsmith.store.userGroup === \"ADMIN\") }}",
+      "isVisible": true,
+      "label": "Departamento Tecnológico",
+      "onClick": "{{navigateTo('KPI Manager', {}, 'SAME_WINDOW');\nstoreValue('Selected_Department', '3');}}",
+      "widgetId": ""
+    },
+    "menuItem538zjh10mu": {
+      "iconName": "people",
+      "id": "menuItem538zjh10mu",
+      "index": 4,
+      "isDisabled": "{{ !((GetRoleDepartments.data.find(dep => dep.Id === 5) ?? false)|| appsmith.store.userGroup === \"ADMIN\") }}",
+      "isVisible": true,
+      "label": "Departamento de Recursos Humanos",
+      "onClick": "{{navigateTo('KPI Manager', {}, 'SAME_WINDOW');\nstoreValue('Selected_Department', '5');}}",
+      "widgetId": "hwak11wo23"
+    },
+    "menuItemhch8iab5tg": {
+      "iconName": "cube",
+      "id": "menuItemhch8iab5tg",
+      "index": 7,
+      "isDisabled": "{{ !((GetRoleDepartments.data.find(dep => dep.Id === 8) ?? false)|| appsmith.store.userGroup === \"ADMIN\") }}",
+      "isVisible": true,
+      "label": "Departamento de Logística",
+      "onClick": "{{navigateTo('KPI Manager', {}, 'SAME_WINDOW');\nstoreValue('Selected_Department', '8');}}",
+      "widgetId": "8rdf82qe3z"
+    },
+    "menuItemklozlsa719": {
+      "iconName": "key-tab",
+      "id": "menuItemklozlsa719",
+      "index": 5,
+      "isDisabled": "{{ !((GetRoleDepartments.data.find(dep => dep.Id === 6) ?? false)|| appsmith.store.userGroup === \"ADMIN\") }}",
+      "isVisible": true,
+      "label": "Departamento de Operações",
+      "onClick": "{{navigateTo('KPI Manager', {}, 'SAME_WINDOW');\nstoreValue('Selected_Department', '6');}}",
+      "widgetId": "6j4kuc999r"
+    },
+    "menuItemzl3w7w80pz": {
+      "iconName": "euro",
+      "id": "menuItemzl3w7w80pz",
+      "index": 3,
+      "isDisabled": "{{ !((GetRoleDepartments.data.find(dep => dep.Id === 4) ?? false)|| appsmith.store.userGroup === \"ADMIN\") }}",
+      "isVisible": true,
+      "label": "Departamento Contabilístico",
+      "onClick": "{{navigateTo('KPI Manager', {}, 'SAME_WINDOW');\nstoreValue('Selected_Department', '4');}}",
+      "widgetId": "en14msp2ow"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 24,
+  "needsErrorInfo": false,
+  "originalBottomRow": 24,
+  "originalTopRow": 18,
+  "parentColumnSpace": 13.921875,
+  "parentId": "mgr1zwjivr",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 61,
+  "sourceData": "[]",
+  "topRow": 18,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "29fblikwsh",
+  "widgetName": "KPIs_Button"
+}

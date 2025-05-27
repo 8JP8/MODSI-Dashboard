@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 72,
+  "boxShadow": "none",
+  "defaultOptionValue": "AREA_CHART",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "slhq9ov7c7",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Tipo de Gráfico (Appsmith)",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 43,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "key",
+  "originalBottomRow": 72,
+  "originalTopRow": 64,
+  "parentColumnSpace": 16.3681640625,
+  "parentId": "58bkilgttx",
+  "parentRowSpace": 10,
+  "placeholderText": "Selecione o Tipo de Gráfico",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Gráfico de Linhas\",\n    \"key\": \"LINE_CHART\"\n  },\n\t {\n    \"name\": \"Gráfico de Barras\",\n    \"key\": \"BAR_CHART\"\n  },\n\t {\n    \"name\": \"Gráfico Circular\",\n    \"key\": \"PIE_CHART\"\n  },\n\t{\n    \"name\": \"Gráfico de Colunas\",\n    \"key\": \"COLUMN_CHART\"\n  },\n\t{\n    \"name\": \"Gráfico de Área\",\n    \"key\": \"AREA_CHART\"\n  }\n]",
+  "topRow": 64,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "abs58cihu9",
+  "widgetName": "ChartTypeSelector"
+}

@@ -1,0 +1,6 @@
+{
+	"Email": {{inp_email.text}},
+	"Name": {{inp_name.text}},
+	"Role": {{change_role.selectedOptionValue}},
+	"Group": {{ RadioGroup2.selectedOptionValue === "Y" ? "ADMIN" : "USER"}}
+};

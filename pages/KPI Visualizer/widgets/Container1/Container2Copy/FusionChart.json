@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowScroll": false,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 106,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "chartData": {
+    "9xrrgvd8g4": {
+      "data": [
+        {
+          "x": "Product1",
+          "y": 20000
+        },
+        {
+          "x": "Product2",
+          "y": 22000
+        },
+        {
+          "x": "Product3",
+          "y": 32000
+        }
+      ],
+      "seriesName": "2023"
+    }
+  },
+  "chartName": "Sales Report",
+  "chartType": "CUSTOM_FUSION_CHART",
+  "customEChartConfig": "option = {\n  tooltip: {},\n  visualMap: {\n    max: 20,\n    inRange: {\n      color: ['#d94e5d','#eac736','#50a3ba']\n    }\n  },\n  xAxis3D: {\n    type: 'category',\n    data: ['A', 'B', 'C']\n  },\n  yAxis3D: {\n    type: 'category',\n    data: ['X', 'Y', 'Z']\n  },\n  zAxis3D: {\n    type: 'value'\n  },\n  grid3D: {\n    boxWidth: 200,\n    boxDepth: 80,\n    light: {\n      main: {\n        intensity: 1.2,\n        shadow: true\n      },\n      ambient: {\n        intensity: 0.3\n      }\n    }\n  },\n  series: [{\n    type: 'bar3D',\n    data: [\n      [0, 0, 5],\n      [1, 1, 15],\n      [2, 2, 10]\n    ],\n    shading: 'lambert'\n  }]\n};\n",
+  "customFusionChartConfig": "{{KPIToGraphConverter.FormatKPIHistory(\n  GetDepartmentKPIs.data, \n  GetKPIValueHistory.data, \n  KpiSelector.selectedOptionLabel, \n  SortTypeSelector.selectedOptionValue, \n  0, \n  \"fusionKPI\", \n  ChartTypeSelectorCopy.selectedOptionValue\n)}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "customFusionChartConfig"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "9q0kq5wpzw",
+  "labelOrientation": "auto",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 68,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 36,
+  "needsErrorInfo": true,
+  "originalBottomRow": 107,
+  "originalTopRow": 73,
+  "parentColumnSpace": 16.3681640625,
+  "parentId": "58bkilgttx",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "showDataPointLabel": false,
+  "topRow": 72,
+  "type": "CHART_WIDGET",
+  "version": 1,
+  "widgetId": "xnrdz5fybp",
+  "widgetName": "FusionChart",
+  "xAxisName": "Product Line",
+  "yAxisName": "Revenue($)"
+}

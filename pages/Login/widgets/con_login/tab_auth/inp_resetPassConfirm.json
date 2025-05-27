@@ -1,0 +1,73 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 40,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "validation"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "errorMessage": "Introduza a mesma password",
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "PASSWORD",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "2use2p5sva",
+  "label": "Confirmar Password",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "5",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onSubmit": "{{AuthChangePassword.ResetPassword();}}",
+  "originalBottomRow": 37,
+  "originalTopRow": 30,
+  "parentColumnSpace": 18.1875,
+  "parentId": "4n3m9h2i0f",
+  "parentRowSpace": 10,
+  "placeholderText": "Confirme a Password",
+  "regex": "^(?!.*(?:--|;|/\\*|\\*/|xp_|union|select|insert|update|delete|drop|alter|create|truncate|exec|declare)).{5,}$",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 63,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "shouldAllowAutofill": true,
+  "tooltip": "",
+  "topRow": 33,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "{{inp_resetPassConfirm.text == inp_resetNewPassword.text}}",
+  "version": 2,
+  "widgetId": "x8e8twkr8i",
+  "widgetName": "inp_resetPassConfirm"
+}

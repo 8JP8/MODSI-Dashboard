@@ -8,7 +8,7 @@
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
-      "bottomRow": 910,
+      "bottomRow": 440,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -55,7 +55,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "hgps68w9ru",
-  "leftColumn": 36,
+  "leftColumn": 33,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,

@@ -28,7 +28,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "xm46ryrjtr",
-  "leftColumn": 24,
+  "leftColumn": 27,
   "minWidth": 120,
   "onClick": "{{copyToClipboard(\"Pendent Users:\\n\" + GetAllUsers.data.filter(user => user.Role === \"n.d.\").map(user => `[${user.Username}, ${user.Email}]`).join(', '));}}",
   "originalBottomRow": 11,
@@ -41,7 +41,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 45,
+  "rightColumn": 41,
   "searchTags": [
     "click",
     "submit"

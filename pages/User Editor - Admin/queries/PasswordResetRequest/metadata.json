@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "680277a22638894e86dc32cf_59e177bc-9ef4-43c5-a1cd-abfa5b0d9080",
-  "id": "User Editor - Admin_UpdateUser",
+  "gitSyncId": "680277a22638894e86dc32cf_5456d5fd-de92-421f-a907-19c93df12efe",
+  "id": "User Editor - Admin_PasswordResetRequest",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,22 +11,17 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"Email\": {{inp_email.text}},\n\t\"Name\": {{inp_name.text}},\n\t\"Role\": {{change_role.selectedOptionValue}},\n\t\"Group\": {{ RadioGroup2.selectedOptionValue === \"Y\" ? \"ADMIN\" : \"USER\"}},\n\t\"IsVerified\": {{ UserVerifiedSwitch.isSwitchedOn }}\n};",
+      "body": "{\n  \"Email\": {{tbl_users.triggeredRow.text}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
         "apiContentType": "application/json"
       },
-      "headers": [
-        {
-          "key": "Authorization",
-          "value": "Bearer {{appsmith.store.authToken}}"
-        }
-      ],
-      "httpMethod": "PUT",
+      "headers": [],
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/api/User/Update/{{inp_email.text}}",
+      "path": "/api/User/RequestPasswordReset",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -44,19 +39,10 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "queryParameters[0].value"
-      },
-      {
-        "key": "headers[0].value"
-      },
-      {
-        "key": "path"
-      },
-      {
         "key": "body"
       }
     ],
-    "name": "UpdateUser",
+    "name": "PasswordResetRequest",
     "pageId": "User Editor - Admin",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

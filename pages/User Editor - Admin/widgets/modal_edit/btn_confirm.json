@@ -42,8 +42,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onClick": "{{EditUser.btn_confirmonClick();\nGetAllUsers.run().then(() => {\n  resetWidget(\"tbl_users\", true);\n  closeModal(modal_edit.name);\n});}}",
-  "originalBottomRow": 52,
-  "originalTopRow": 48,
+  "originalBottomRow": 40,
+  "originalTopRow": 36,
   "parentId": "zey7dt9vs1",
   "placement": "CENTER",
   "recaptchaType": "V3",

@@ -3,12 +3,12 @@
   "allowScroll": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 91,
+  "bottomRow": 38,
   "boxShadow": "none",
   "chartData": {
     "jz3gpe827y": {
       "color": "#15803d",
-      "data": "{{ \n Object.entries(\n  GetAllUsers.data.reduce((acc, user) => {\n    const date = new Date(user.CreatedAt);\n    const monthYear = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`; // Format: YYYY-MM\n    acc[monthYear] = (acc[monthYear] || 0) + 1;\n    return acc;\n  }, {})\n).map(([monthYear, count]) => ({ x: monthYear, y: count }));\n\n}}",
+      "data": "{{ \n  (() => {\n    const toggleOn = MonthsDaysSwitch.isSwitchedOn;\n    const groupedData = GetAllUsers.data.reduce((acc, user) => {\n      const date = new Date(user.CreatedAt);\n      const key = toggleOn ? \n        `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}` : \n        `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;\n      acc[key] = (acc[key] || 0) + 1;\n      return acc;\n    }, {});\n\n    if (!toggleOn) {\n      // Ensure all days in range are present\n      const allDays = [];\n      const startDate = new Date(Math.min(...GetAllUsers.data.map(u => new Date(u.CreatedAt))));\n      const endDate = new Date(Math.max(...GetAllUsers.data.map(u => new Date(u.CreatedAt))));\n      for (let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {\n        const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;\n        allDays.push({ x: key, y: groupedData[key] || 0 });\n      }\n      return allDays;\n    }\n\n    return Object.entries(groupedData).map(([key, count]) => ({ x: key, y: count }));\n  })()\n}}",
       "seriesName": "Entradas"
     }
   },
@@ -191,7 +191,7 @@
   "labelOrientation": "auto",
   "leftColumn": 1,
   "minWidth": 450,
-  "originalBottomRow": 41,
+  "originalBottomRow": 40,
   "originalTopRow": 6,
   "parentColumnSpace": 20.0625,
   "parentId": "tcfkzek2hs",
@@ -205,7 +205,7 @@
     "visualisations"
   ],
   "showDataPointLabel": false,
-  "topRow": 56,
+  "topRow": 4,
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "q7mu7tj3d5",

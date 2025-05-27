@@ -1,0 +1,50 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultSwitchState": "{{tbl_users.triggeredRow.IsVerified}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultSwitchState"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultSwitchState"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cm2qgnjpv2",
+  "label": "Conta verificada",
+  "labelPosition": "Left",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 30,
+  "mobileLeftColumn": 33,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 26,
+  "needsErrorInfo": false,
+  "originalBottomRow": 13,
+  "originalTopRow": 9,
+  "parentColumnSpace": 7.875,
+  "parentId": "yajrc74vjw",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "topRow": 8,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "zo5ns9us7a",
+  "widgetName": "UserVerifiedSwitch"
+}

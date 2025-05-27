@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 55,
+  "bottomRow": 4,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -29,8 +29,8 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "originalBottomRow": 5,
-  "originalTopRow": 1,
+  "originalBottomRow": 6,
+  "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 8.35546875,
   "parentId": "tcfkzek2hs",
@@ -47,7 +47,7 @@
   "text": "Entrada de Colaboradores",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 1,
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

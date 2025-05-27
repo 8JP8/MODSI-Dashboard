@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 46,
+  "bottomRow": 16,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -13,9 +13,6 @@
       "key": "borderRadius"
     },
     {
-      "key": "isRequired"
-    },
-    {
       "key": "sourceData"
     }
   ],
@@ -23,56 +20,43 @@
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
-    },
-    {
-      "key": "isRequired"
-    },
-    {
-      "key": "onOptionChange"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onOptionChange"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
-  "isRequired": "{{!appsmith.store.createNewKPI_isDepartmentValid && appsmith.store.createNewKPI_isMultiSelect1Dirty}}",
+  "isRequired": false,
   "isVisible": true,
-  "key": "bsijgv12ks",
+  "key": "2eoct69pck",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Departamentos",
+  "labelText": "Selecione os Indicadores",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 1,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 25,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 20,
-  "mobileTopRow": 18,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 42,
+  "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "onOptionChange": "{{CreateKPIs.ValidateForm();\nstoreValue(\"createNewKPI_isMultiSelect1Dirty\", \"true\");}}",
-  "optionLabel": "label",
+  "optionLabel": "name",
   "optionValue": "value",
-  "originalBottomRow": 46,
-  "originalTopRow": 39,
-  "parentColumnSpace": 6.9375,
-  "parentId": "zajs3vet3u",
+  "parentColumnSpace": 6.4921875,
+  "parentId": "46vtlsimna",
   "parentRowSpace": 10,
-  "placeholderText": "Selecione um ou mais departamentos",
+  "placeholderText": "Selecione um ou mais indicadores",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 63,
   "serverSideFiltering": false,
   "sourceData": "{{\n((appsmith.store.userGroup === \"ADMIN\") ? GetAllDepartments.data : GetRoleDepartments.data).map(dept => ({\n  label: DepartmentTitleChanger.MapTitleFromId(dept.Id).replace(\"Departamento \", \"\").replace(\"de \", \"\"),\n  value: dept.Name\n}))\n}}",
-  "topRow": 39,
+  "topRow": 9,
   "type": "MULTI_SELECT_WIDGET_V2",
   "version": 1,
-  "widgetId": "dg0wwjolk8",
-  "widgetName": "Departments"
+  "widgetId": "uh9prn6utg",
+  "widgetName": "KPISelector"
 }

@@ -15,7 +15,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -33,9 +37,9 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{CreateKPIs.ValidateAndSubmit();}}",
-  "originalBottomRow": 61,
-  "originalTopRow": 57,
+  "onClick": "{{CreateKPIs.ValidateAndSubmit();\ncloseModal(CreateKPIModal.name);}}",
+  "originalBottomRow": 57,
+  "originalTopRow": 53,
   "parentId": "zajs3vet3u",
   "placement": "CENTER",
   "recaptchaType": "V3",

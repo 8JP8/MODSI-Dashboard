@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "680277a22638894e86dc32cf_1371bcb7-ad97-4034-a212-c9fc2ff02b25",
-  "id": "Main Page_GetRoleDepartments",
+  "gitSyncId": "680277a22638894e86dc32cf_eed3e2b2-c0fc-4655-afc3-f27884a71b62",
+  "id": "AI Chat_GetAllDepartments",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -21,7 +21,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/api/roles/{{appsmith.store.userRoleId}}/departments",
+      "path": "/api/departments",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -39,15 +39,15 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
+        "key": "queryParameters[0].value"
       },
       {
         "key": "headers[0].value"
       }
     ],
-    "name": "GetRoleDepartments",
-    "pageId": "Main Page",
-    "runBehaviour": "MANUAL",
+    "name": "GetAllDepartments",
+    "pageId": "AI Chat",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

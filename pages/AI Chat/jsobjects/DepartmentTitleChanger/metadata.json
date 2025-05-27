@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_7298570b-674f-463e-9d40-3d4ff3b0b25a",
+  "id": "AI Chat_DepartmentTitleChanger",
+  "unpublishedCollection": {
+    "name": "DepartmentTitleChanger",
+    "pageId": "AI Chat",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "departmentNames",
+        "value": "[\"Departamento Executivo\", \"Departamento Financeiro\", \"Departamento Tecnológico\", \"Departamento Contabilístico\", \"Departamento de R.H.\", \"Departamento de Operações\", \"Departamento de Marketing\", \"Departamento de Logística\"]"
+      }
+    ]
+  }
+}

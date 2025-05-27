@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 37,
+  "bottomRow": 39,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 28,
   "needsErrorInfo": false,
-  "originalBottomRow": 37,
-  "originalTopRow": 33,
+  "originalBottomRow": 39,
+  "originalTopRow": 35,
   "overflow": "NONE",
   "parentColumnSpace": 17.21875,
   "parentId": "pvbffmydlk",
@@ -43,7 +43,7 @@
   "text": "<b>Modelo:</b> gemini2.0-flash  ",
   "textAlign": "RIGHT",
   "textColor": "#231F20",
-  "topRow": 33,
+  "topRow": 35,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

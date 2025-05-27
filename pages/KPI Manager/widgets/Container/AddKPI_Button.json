@@ -35,7 +35,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{showAlert('Funcionalidade de adicionar um novo KPI - ainda não implementada', 'warning');\nshowModal(CreateKPIModal.name);}}",
+  "onClick": "{{GetAllDepartments.run().then(() => {\n  showModal(CreateKPIModal.name);\n});}}",
   "parentColumnSpace": 19.9375,
   "parentId": "u4x7i5ogmu",
   "parentRowSpace": 10,

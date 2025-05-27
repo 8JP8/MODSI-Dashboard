@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "680277a22638894e86dc32cf_1371bcb7-ad97-4034-a212-c9fc2ff02b25",
-  "id": "Main Page_GetRoleDepartments",
+  "gitSyncId": "680277a22638894e86dc32cf_b5375790-ac08-4083-b513-b11cf50f983d",
+  "id": "AI Chat_GetRoleDepartments",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -46,8 +46,8 @@
       }
     ],
     "name": "GetRoleDepartments",
-    "pageId": "Main Page",
-    "runBehaviour": "MANUAL",
+    "pageId": "AI Chat",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

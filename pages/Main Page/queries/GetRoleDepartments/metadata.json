@@ -47,7 +47,7 @@
     ],
     "name": "GetRoleDepartments",
     "pageId": "Main Page",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

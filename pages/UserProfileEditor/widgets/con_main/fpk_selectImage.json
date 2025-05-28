@@ -43,7 +43,7 @@
   "mobileLeftColumn": 0,
   "mobileRightColumn": 16,
   "mobileTopRow": 27,
-  "onFilesSelected": "{{ProfileEditor_FileUpload.run().then(() => {\n  showAlert('error', 'error');\n});}}",
+  "onFilesSelected": "{{UserProfileEditor_Image.selectImageonFilesSelected();}}",
   "originalBottomRow": 37,
   "originalTopRow": 31,
   "parentColumnSpace": 8.6650390625,

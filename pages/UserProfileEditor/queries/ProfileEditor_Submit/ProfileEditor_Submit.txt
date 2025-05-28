@@ -1,5 +1,5 @@
 {
 	"Name": {{appsmith.store.userName}},
 	"Tel": {{appsmith.store.userPhone}},
-	"Photo": {{appsmith.store.tempUserPhoto ?? appsmith.store.userPhoto}}
+	"Photo": {{(appsmith.store.tempUserPhoto == undefined) ? appsmith.store.userPhoto : appsmith.store.tempUserPhoto}}
 }

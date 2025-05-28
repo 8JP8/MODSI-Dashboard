@@ -34,7 +34,7 @@ export default {
 					storeValue('userRole', getUserDetailsresponse.Role);
 					storeValue('userGroup', getUserDetailsresponse.Group);
 					storeValue('userTel', getUserDetailsresponse.Tel);
-					//storeValue('userPhoto', getUserDetailsresponse.Photo);
+					storeValue('userPhoto', getUserDetailsresponse.Photo);
 				}
 			}
 			resetWidget("fpk_selectImage");

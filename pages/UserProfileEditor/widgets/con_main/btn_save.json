@@ -40,7 +40,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{UserProfileEditor_Submit.UpdateUserProfile();}}",
+  "onClick": "{{UserProfileEditor_Submit.UpdateUserProfile();\nshowAlert(appsmith.store.tempUserPhoto + ' | ' + appsmith.store.userPhoto, '');}}",
   "originalBottomRow": 45,
   "originalTopRow": 39,
   "parentColumnSpace": 5.3955078125,

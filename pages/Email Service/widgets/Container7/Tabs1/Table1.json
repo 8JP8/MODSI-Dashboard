@@ -207,7 +207,7 @@
       "horizontalAlignment": "LEFT",
       "id": "IsVerified",
       "index": 6,
-      "isCellVisible": true,
+      "isCellVisible": false,
       "isDerived": false,
       "isDisabled": false,
       "isVisible": true,
@@ -321,7 +321,7 @@
     "datagrid"
   ],
   "serverSidePaginationEnabled": true,
-  "tableData": "{{GetAllUsers.data.filter(user => user.Tel !== null && user.Tel !== \"\")}}",
+  "tableData": "{{GetAllUsers.data.filter(user => user.Email !== null && user.Email !== \"\")}}",
   "textSize": "0.875rem",
   "topRow": 6,
   "totalRecordsCount": 0,

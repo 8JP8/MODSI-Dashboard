@@ -295,7 +295,7 @@
       "id": "IsVerified",
       "index": 6,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": false,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,

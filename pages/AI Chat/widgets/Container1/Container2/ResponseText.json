@@ -4,7 +4,7 @@
   "borderColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 36,
+  "bottomRow": 50,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -22,7 +22,7 @@
   "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontSize": "0.875rem",
   "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
@@ -36,7 +36,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 43,
   "needsErrorInfo": false,
-  "originalBottomRow": 58,
+  "originalBottomRow": 36,
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 17.53125,
@@ -47,7 +47,7 @@
   "rightColumn": 64,
   "shouldScrollContents": true,
   "shouldTruncate": false,
-  "text": "{{Gemini_2.data?.candidates?.[0]?.content?.parts?.[0]?.text}}",
+  "text": "{{ PromptCreator.convertMarkdownToAppsmithHtml(Gemini_2.data?.candidates?.[0]?.content?.parts?.[0]?.text) }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 0,

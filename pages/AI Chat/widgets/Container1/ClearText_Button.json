@@ -30,7 +30,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "onClick": "{{resetWidget(\"PromptInput\", true);}}",
+  "onClick": "{{resetWidget(\"PromptInput\", true).then(() => {\n  removeValue('AIChat_KPIInsertionPrompt');\n});}}",
   "originalBottomRow": 20,
   "originalTopRow": 14,
   "parentColumnSpace": 17.21875,

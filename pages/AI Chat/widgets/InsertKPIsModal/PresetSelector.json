@@ -14,7 +14,31 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonb3w44skdbd.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.onClick"
+    }
+  ],
   "groupButtons": {
     "groupButton1": {
       "buttonColor": "#a16207",
@@ -27,6 +51,7 @@
       "isVisible": true,
       "label": "Relacional",
       "menuItems": {},
+      "onClick": "{{AnalysisTypeInput.setValue(\"Relacional\")}}",
       "placement": "CENTER",
       "widgetId": ""
     },
@@ -41,6 +66,7 @@
       "isVisible": true,
       "label": "Comparativa",
       "menuItems": {},
+      "onClick": "{{AnalysisTypeInput.setValue(\"Comparativa\")}}",
       "placement": "CENTER",
       "widgetId": ""
     },
@@ -48,7 +74,7 @@
       "buttonColor": "#7e22ce",
       "buttonType": "SIMPLE",
       "disabledWhenInvalid": false,
-      "iconName": "more",
+      "iconName": "chart",
       "id": "groupButton3",
       "index": 2,
       "isDisabled": false,
@@ -93,11 +119,13 @@
           "widgetId": ""
         }
       },
+      "onClick": "{{AnalysisTypeInput.setValue(\"Preditiva\")}}",
       "placement": "CENTER",
       "widgetId": ""
     }
   },
   "isCanvas": false,
+  "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "7lk24k7b3v",
@@ -109,8 +137,8 @@
   "mobileTopRow": 16,
   "needsErrorInfo": false,
   "orientation": "horizontal",
-  "originalBottomRow": 26,
-  "originalTopRow": 22,
+  "originalBottomRow": 28,
+  "originalTopRow": 24,
   "parentColumnSpace": 6.4921875,
   "parentId": "46vtlsimna",
   "parentRowSpace": 10,

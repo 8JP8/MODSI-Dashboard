@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 38,
+  "bottomRow": 40,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY_BUTTON",
@@ -15,6 +15,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -25,25 +30,25 @@
   "isLoading": false,
   "isVisible": true,
   "key": "kt3fqlcyes",
-  "leftColumn": 44,
+  "leftColumn": 43,
   "minWidth": 120,
   "mobileBottomRow": 22,
   "mobileLeftColumn": 47,
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(InsertKPIsModal.name);}}",
-  "originalBottomRow": 30,
-  "originalTopRow": 26,
+  "onClick": "{{\n  (() => {\n    let kpiDataSource;\n    if (appsmith.store.userGroup === \"ADMIN\") {\n      kpiDataSource = GetAllKPIs.data;\n    } else {\n      kpiDataSource = GetRoleKPIs.data;\n    }\n\n    if (!kpiDataSource || !Array.isArray(kpiDataSource)) {\n      showAlert('Dados de KPI não estão carregados ou são inválidos.', 'error');\n      return;\n    }\n\n    const selectedKpiIds = KPISelector.selectedOptionValues;\n\n    if (!selectedKpiIds || selectedKpiIds.length === 0) {\n      showAlert('Selecione pelo menos um KPI.', 'warning');\n      return;\n    }\n\n    const fullyFilteredKpis = kpiDataSource.filter(kpi =>\n      selectedKpiIds.includes(kpi.Id)\n    );\n\n    const kpisForPrompt = fullyFilteredKpis.map(kpi => {\n      return {\n        Name: kpi.Name,\n        Value_1: kpi.Value_1,\n        Value_2: kpi.Value_2,\n        ByProduct: kpi.ByProduct // Essential for the new prompt format\n      };\n    });\n\n    const generatedPromptContent = PromptCreator.generateAnalysisPrompt(kpisForPrompt, AnalysisTypeInput.text) + \" \";\n    storeValue('AIChat_KPIInsertionPrompt', generatedPromptContent); // This will be a flat string\n\n    closeModal(InsertKPIsModal.name);\n    showAlert('Prompt de KPI gerado e armazenado!', 'success');\n  })()\n}}",
+  "originalBottomRow": 40,
+  "originalTopRow": 36,
   "parentId": "46vtlsimna",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
+  "rightColumn": 62,
   "text": "Confirmar",
-  "topRow": 34,
+  "topRow": 36,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "plulnfgznn",

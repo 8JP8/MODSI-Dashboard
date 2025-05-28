@@ -47,7 +47,7 @@
     ],
     "name": "GetAllDepartments",
     "pageId": "AI Chat",
-    "runBehaviour": "ON_PAGE_LOAD",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

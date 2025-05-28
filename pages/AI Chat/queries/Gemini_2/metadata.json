@@ -1,6 +1,6 @@
 {
   "gitSyncId": "680277a22638894e86dc32cf_7530b2be-31ce-43ea-9e7b-3d942f2d8ba0",
-  "id": "AI Chat_Api1",
+  "id": "AI Chat_Gemini_2",
   "pluginId": "Google AI",
   "pluginType": "AI",
   "unpublishedAction": {
@@ -23,7 +23,7 @@
               "type": "text"
             }
           ],
-          "data": "[\n\t{\n\t\t\"role\": \"user\",\n\t\t\"type\": \"text\",\n\t\t\"content\": \"{{PromptInput.text}}\"\n\t}\n]",
+          "data": "[\n\t{\n\t\t\"role\": \"user\",\n\t\t\"type\": \"text\",\n\t\t\"content\": \"{{appsmith.store.AIChat_KPIInsertionPrompt + PromptInput.text}}\"\n\t}\n]",
           "viewType": "json"
         }
       },
@@ -37,8 +37,12 @@
       "name": "Google AI Studio API",
       "pluginId": "Google AI"
     },
-    "dynamicBindingPathList": [],
-    "name": "Api1",
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.messages.data"
+      }
+    ],
+    "name": "Gemini_2",
     "pageId": "AI Chat",
     "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false

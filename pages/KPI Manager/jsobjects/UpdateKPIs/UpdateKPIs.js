@@ -12,8 +12,10 @@ export default {
         await UpdateKPIValues.run();
       } catch (error) {
         console.error(`Error updating row with ID ${row.id}:`, error);
+				return false;
       }
     };
 		await GetDepartmentKPIs.run(); //Reset the table
+		showAlert("Atualização bem sucedida", "success");
   }
 };

@@ -31,7 +31,7 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
-  "onClick": "{{Api1.run()}}",
+  "onClick": "{{Gemini_2.run()}}",
   "originalBottomRow": 29,
   "originalTopRow": 20,
   "parentColumnSpace": 17.53125,

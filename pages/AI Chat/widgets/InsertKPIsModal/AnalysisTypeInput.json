@@ -1,64 +1,57 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
+  "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 32,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "sourceData"
-    }
-  ],
   "dynamicTriggerPathList": [],
+  "iconAlign": "right",
+  "iconName": "clean",
+  "inputType": "TEXT",
   "isDisabled": false,
-  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "2eoct69pck",
+  "key": "dwyl258jg2",
+  "label": "",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Selecione os Indicadores",
+  "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 15,
-  "mobileLeftColumn": 22,
-  "mobileRightColumn": 42,
-  "mobileTopRow": 8,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 28,
   "needsErrorInfo": false,
-  "optionLabel": "Name",
-  "optionValue": "Id",
-  "originalBottomRow": 16,
-  "originalTopRow": 9,
+  "originalBottomRow": 32,
+  "originalTopRow": 28,
   "parentColumnSpace": 6.4921875,
   "parentId": "46vtlsimna",
   "parentRowSpace": 10,
-  "placeholderText": "Selecione um ou mais indicadores",
   "renderMode": "CANVAS",
+  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
-  "serverSideFiltering": false,
-  "sourceData": "{{\n(appsmith.store.userGroup === \"ADMIN\") ? GetAllKPIs.data : GetRoleKPIs.data\n}}",
-  "topRow": 9,
-  "type": "MULTI_SELECT_WIDGET_V2",
-  "version": 1,
-  "widgetId": "uh9prn6utg",
-  "widgetName": "KPISelector"
+  "rightColumn": 62,
+  "showStepArrows": false,
+  "topRow": 28,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "jkeo8wzqog",
+  "widgetName": "AnalysisTypeInput"
 }

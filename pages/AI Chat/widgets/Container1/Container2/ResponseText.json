@@ -4,7 +4,7 @@
   "borderColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 33,
+  "bottomRow": 36,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -36,7 +36,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 43,
   "needsErrorInfo": false,
-  "originalBottomRow": 30,
+  "originalBottomRow": 58,
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 17.53125,
@@ -47,7 +47,7 @@
   "rightColumn": 64,
   "shouldScrollContents": true,
   "shouldTruncate": false,
-  "text": "{{Api1.data?.candidates?.[0]?.content?.parts?.[0]?.text}}",
+  "text": "{{Gemini_2.data?.candidates?.[0]?.content?.parts?.[0]?.text}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 0,

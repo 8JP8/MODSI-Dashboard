@@ -16,6 +16,7 @@
       "key": "buttonColor"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onFilesSelected"
@@ -42,7 +43,7 @@
   "mobileLeftColumn": 0,
   "mobileRightColumn": 16,
   "mobileTopRow": 27,
-  "onFilesSelected": "{{ProfileEditor_FileUpload.run().then(() => {\n  showAlert('COMO ASSIM', 'info');\n}).catch(() => {\n  showAlert('Não deu', 'error');\n});}}",
+  "onFilesSelected": "{{showAlert('appsmith ta a trollar', '');}}",
   "originalBottomRow": 37,
   "originalTopRow": 31,
   "parentColumnSpace": 8.6650390625,

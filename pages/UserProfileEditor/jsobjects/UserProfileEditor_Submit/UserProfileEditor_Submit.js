@@ -37,7 +37,7 @@ export default {
 					storeValue('userPhoto', getUserDetailsresponse.Photo);
 				}
 			}
-			resetWidget("fpk_selectImage");
+			//resetWidget("fpk_selectImage");
 
 		} catch (error) {
 			console.error("Update error:", error);

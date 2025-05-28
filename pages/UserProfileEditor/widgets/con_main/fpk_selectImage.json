@@ -6,14 +6,16 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 37,
   "boxShadow": "none",
-  "buttonColor": "#1d4ed8",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "displayName": "FilePicker",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
     }
   ],
-  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onFilesSelected"
@@ -33,16 +35,16 @@
   "key": "5azr302uj1",
   "label": "Carregar Foto",
   "leftColumn": 0,
-  "maxFileSize": "5",
+  "maxFileSize": 5,
   "maxNumFiles": 1,
   "minWidth": 120,
   "mobileBottomRow": 31,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 16,
   "mobileTopRow": 27,
-  "onFilesSelected": "{{ProfileEditor_FileUpload.run().then(() => {\n  UserProfileEditor_Image.fpk_selectImageonFilesSelected();\n}).catch(() => {\n  showAlert('Erro: O carregamento falhou', 'error');\n});}}",
-  "originalBottomRow": 37,
-  "originalTopRow": 31,
+  "onFilesSelected": "{{ProfileEditor_FileUpload.run().then(() => {\n  UserProfileEditor_Image.fpk_selectImageonFilesSelected();\n});}}",
+  "originalBottomRow": 67,
+  "originalTopRow": 62,
   "parentColumnSpace": 8.6650390625,
   "parentId": "0bw2f7zunw",
   "parentRowSpace": 10,
@@ -59,6 +61,6 @@
   "topRow": 31,
   "type": "FILE_PICKER_WIDGET_V2",
   "version": 1,
-  "widgetId": "luh1nrsz9x",
+  "widgetId": "1vez0o07fz",
   "widgetName": "fpk_selectImage"
 }

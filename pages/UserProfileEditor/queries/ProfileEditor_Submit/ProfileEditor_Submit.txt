@@ -1,5 +1,5 @@
 {
 	"Name": {{appsmith.store.userName}},
 	"Tel": {{appsmith.store.userPhone}},
-	"Photo": {{ProfileEditor_FileUpload.data.url ?? appsmith.store.userPhoto}}
+	"Photo": {{appsmith.store.tempUserPhoto ?? appsmith.store.userPhoto}}
 }

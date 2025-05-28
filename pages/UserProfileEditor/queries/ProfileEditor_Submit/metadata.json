@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"Name\": {{appsmith.store.userName}},\n\t\"Tel\": {{appsmith.store.userPhone}},\n\t\"Photo\": {{ProfileEditor_FileUpload.data.url ?? appsmith.store.userPhoto}}\n}",
+      "body": "{\n\t\"Name\": {{appsmith.store.userName}},\n\t\"Tel\": {{appsmith.store.userPhone}},\n\t\"Photo\": {{appsmith.store.tempUserPhoto ?? appsmith.store.userPhoto}}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

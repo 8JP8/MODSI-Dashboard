@@ -2,7 +2,7 @@ export default {
 	fpk_selectImageonFilesSelected () {
 		if (ProfileEditor_FileUpload.data.url && ProfileEditor_FileUpload.data.url.trim().length > 0) {
 			img_uploadImage.setImage(ProfileEditor_FileUpload.data.url);
-			storeValue("tempUserPhoto",ProfileEditor_FileUpload.data.url);
+			storeValue("tempUserPhoto",img_uploadImage.image);
 		}
 		else { showAlert("Erro ao fazer o upload da imagem. URL não encontrado.", "error"); }
 	},

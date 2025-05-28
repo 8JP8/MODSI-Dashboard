@@ -28,6 +28,8 @@ export default {
             "Não verificou a sua conta: verifique a sua conta clicando no link enviado para o seu email",
             "error"
           );
+					try { SendVerificationEmail.run(); } catch {}
+					if (SendVerificationEmail.responseMeta.isExecutionSuccess) {showAlert("Um novo email de verificação enviado para o seu email", "success"); }
           clearStore();
           return false;
         }

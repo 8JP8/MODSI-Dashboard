@@ -1,0 +1,3 @@
+{
+  "Email": "{{inp_email.text}}"
+}

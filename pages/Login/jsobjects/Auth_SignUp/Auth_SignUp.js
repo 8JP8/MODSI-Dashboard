@@ -51,6 +51,7 @@ export default {
 			if (response || SignUp_RegisterUser.responseMeta.statusCode == "200 OK") {
 				// Log and display success
 				showAlert("Registado com sucesso. Espere por aprovação do administrador.", "success");
+				if (SendVerificationEmail.responseMeta.isExecutionSuccess) {showAlert("Um email de verificação foi enviado para o seu email", "success"); }
 			} else {
 				// Try to parse JSON, with better error handling
 				try {

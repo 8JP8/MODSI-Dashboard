@@ -1,6 +1,5 @@
 export default {
-	async selectImageonFilesSelected() {
-		await ProfileEditor_FileUpload.run();
+	selectImageonFilesSelected() {
 		if (ProfileEditor_FileUpload.data.url && ProfileEditor_FileUpload.data.url.trim().length > 0) {
 			img_uploadImage.setImage(ProfileEditor_FileUpload.data.url);
 			storeValue("tempUserPhoto",img_uploadImage.image);

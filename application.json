@@ -32,10 +32,6 @@
   "icon": "bar-graph",
   "pages": [
     {
-      "id": "Upload File",
-      "isDefault": false
-    },
-    {
       "id": "Login",
       "isDefault": false
     },

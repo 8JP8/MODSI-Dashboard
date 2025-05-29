@@ -53,9 +53,9 @@
       }
     ],
     "fullyQualifiedName": "upload_file",
-    "name": "upload_file",
+    "name": "test",
     "pageId": "Upload File",
-    "runBehaviour": "ON_PAGE_LOAD",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

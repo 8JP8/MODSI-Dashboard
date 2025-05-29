@@ -1,8 +1,8 @@
 export default {
 	selectImageonFilesSelected() {
-		if (ProfileEditor_FileUpload.data.url && ProfileEditor_FileUpload.data.url.trim().length > 0) {
-			img_uploadImage.setImage(ProfileEditor_FileUpload.data.url);
-			storeValue("tempUserPhoto",img_uploadImage.image);
+		if (ProfileEditor_FileUpload.data.data.url && ProfileEditor_FileUpload.data.data.url.trim().length > 0) {
+			img_uploadImage.setImage(ProfileEditor_FileUpload.data.data.url);
+			storeValue("tempUserPhoto",ProfileEditor_FileUpload.data.data.url);
 		}
 		else { showAlert("Erro ao fazer o upload da imagem. URL não encontrado.", "error"); }
 	},

@@ -50,7 +50,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{upload_file.run()}}",
+  "onClick": "{{test.run()}}",
   "parentColumnSpace": 5.3955078125,
   "parentId": "0bw2f7zunw",
   "parentRowSpace": 10,

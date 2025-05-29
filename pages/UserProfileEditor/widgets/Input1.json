@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 62,
   "boxShadow": "none",
-  "defaultText": "{{ProfileEditor_FileUpload.data.url}}",
+  "defaultText": "{{ProfileEditor_FileUpload.data.data.url}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {

@@ -28,7 +28,7 @@
   "isVisible": true,
   "key": "d80868s2dr",
   "leftColumn": 1,
-  "onClick": "{{storeValue('usernameValidation', '');\nAuth_SignUp.Register();}}",
+  "onClick": "{{Auth_SignUp.Register();}}",
   "originalBottomRow": 55,
   "originalTopRow": 49,
   "parentColumnSpace": 18.1875,

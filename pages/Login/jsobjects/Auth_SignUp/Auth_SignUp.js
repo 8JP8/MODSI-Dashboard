@@ -51,7 +51,9 @@ export default {
 			if (response || SignUp_RegisterUser.responseMeta.statusCode == "200 OK") {
 				// Log and display success
 				showAlert("Registado com sucesso. Espere por aprovação do administrador.", "success");
+				try { await SendVerificationEmail.run(); } catch {}
 				if (SendVerificationEmail.responseMeta.isExecutionSuccess) {showAlert("Um email de verificação foi enviado para o seu email", "success"); }
+				Auth_UI.setDefaultTab('Login');
 			} else {
 				// Try to parse JSON, with better error handling
 				try {

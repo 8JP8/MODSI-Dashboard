@@ -16,7 +16,11 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onFilesSelected"
@@ -43,7 +47,7 @@
   "mobileLeftColumn": 0,
   "mobileRightColumn": 16,
   "mobileTopRow": 27,
-  "onFilesSelected": "{{uplooad.run().then(() => {\n  UserProfileEditor_Image.selectImageonFilesSelected();\n  showAlert('hello', 'info');\n});}}",
+  "onFilesSelected": "{{ProfileEditor_Upload.clear();ProfileEditor_Upload.run();}}",
   "originalBottomRow": 37,
   "originalTopRow": 31,
   "parentColumnSpace": 8.6650390625,

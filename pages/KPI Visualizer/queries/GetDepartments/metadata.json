@@ -14,7 +14,7 @@
       },
       "headers": [
         {
-          "key": "Authentication",
+          "key": "Authorization",
           "value": "Bearer {{appsmith.store.authToken}}"
         }
       ],

@@ -1,3 +1,3 @@
 {
-  "Email": "{{inp_email.text}}"
+  "Email": "{{(Auth_UI.defaultTab == "Sign In") ? inp_email.text : inp_registerEmail.text}}"
 }

@@ -12,7 +12,12 @@
       "formData": {
         "apiContentType": "none"
       },
-      "headers": [],
+      "headers": [
+        {
+          "key": "Authorization",
+          "value": "Bearer {{appsmith.store.authToken}}"
+        }
+      ],
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
@@ -40,6 +45,9 @@
     "dynamicBindingPathList": [
       {
         "key": "path"
+      },
+      {
+        "key": "headers[0].value"
       }
     ],
     "name": "GetDepartmentKPIs",

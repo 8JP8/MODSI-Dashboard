@@ -7,6 +7,13 @@ export default {
     }
 
     try {
+			// Hash password
+      await Auth_PasswordCheck.getSaltAndHash(inp_password.text, false);
+			
+			// Attempt login
+      const loginResponse = await Login_GetAuthToken.run();
+			storeValue("authToken", Login_GetAuthToken.data.Token);
+			
       // Get user details
       const userDetails = await GetUserDetails.run();
 
@@ -44,12 +51,6 @@ export default {
         }
       }
 
-      // Hash password
-      await Auth_PasswordCheck.getSaltAndHash(inp_password.text, false);
-
-      // Attempt login
-      const loginResponse = await Login_GetAuthToken.run();
-
       if (loginResponse?.Token) {
         storeValue('authToken', loginResponse.Token);
         showAlert("Autenticado com Sucesso", "success");
@@ -68,7 +69,7 @@ export default {
 			// If API error message contains 'Invalid username/email or password'
 			if (
 				Login_GetAuthToken.responseMeta?.statusCode?.includes("401") ||
-							Login_GetAuthToken.data.ToString().toLowerCase().includes("invalid username/email or password")
+							String(Login_GetAuthToken.data).toLowerCase().includes("invalid username/email or password")
 			) {
 				showAlert("Erro: Password Incorreta", "warning");
 				storeValue("wrongPasswordCount", (appsmith.store.wrongPasswordCount ?? 0) + 1);

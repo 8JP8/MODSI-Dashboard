@@ -15,7 +15,7 @@
       "headers": [
         {
           "key": "Authorization",
-          "value": "{{appsmith.store.authToken}}"
+          "value": "Bearer {{appsmith.store.authToken}}"
         }
       ],
       "httpMethod": "GET",

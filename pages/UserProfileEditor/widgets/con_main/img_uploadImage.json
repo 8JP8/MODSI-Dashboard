@@ -14,8 +14,8 @@
     }
   ],
   "dynamicTriggerPathList": [],
-  "enableDownload": false,
-  "enableRotation": false,
+  "enableDownload": true,
+  "enableRotation": true,
   "flexVerticalAlignment": "start",
   "hideCard": false,
   "iconSVG": "https://appcdn.appsmith.com/static/media/icon.69b0f0dd810281fbd6e34fc2c3f39344.svg",

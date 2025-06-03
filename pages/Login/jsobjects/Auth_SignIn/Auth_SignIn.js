@@ -24,6 +24,7 @@ export default {
         storeValue('userUsername', userDetails.Username);
         storeValue('userRole', userDetails.Role);
         storeValue('userGroup', userDetails.Group);
+				
         storeValue('userTel', userDetails.Tel);
         storeValue('userPhoto', userDetails.Photo);
 

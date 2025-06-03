@@ -28,7 +28,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "xm46ryrjtr",
-  "leftColumn": 27,
+  "leftColumn": 26,
   "minWidth": 120,
   "onClick": "{{copyToClipboard(\"Pendent Users:\\n\" + GetAllUsers.data.filter(user => user.Role === \"n.d.\").map(user => `[${user.Username}, ${user.Email}]`).join(', '));}}",
   "originalBottomRow": 11,

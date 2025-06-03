@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"Email\": \"{{(Auth_UI.defaultTab == \"Sign In\") ? inp_email.text : inp_registerEmail.text}}\"\n}",
+      "body": "{\n  \"Email\": \"{{(Auth_UI.defaultTab == \"Sign Up\") ? inp_registerEmail.text : inp_email.text}}\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

@@ -4,7 +4,7 @@
   ],
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 37,
+  "bottomRow": 39,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "displayName": "FilePicker",
@@ -59,7 +59,7 @@
   "tags": [
     "Inputs"
   ],
-  "topRow": 31,
+  "topRow": 33,
   "type": "FILE_PICKER_WIDGET_V2",
   "version": 1,
   "widgetId": "1vez0o07fz",

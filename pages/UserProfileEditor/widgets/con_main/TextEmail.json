@@ -3,7 +3,7 @@
   "backgroundColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
-  "bottomRow": 23,
+  "bottomRow": 25,
   "disableLink": false,
   "dynamicBindingPathList": [
     {
@@ -50,7 +50,7 @@
   "text": "<b>Email: </b><a href=\"mailto:{{appsmith.store.userEmail}}\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: black;\">{{appsmith.store.userEmail}}</a>\n",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 19,
+  "topRow": 21,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

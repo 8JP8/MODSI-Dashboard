@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 6,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -33,8 +33,8 @@
   "mobileLeftColumn": 0,
   "mobileRightColumn": 16,
   "mobileTopRow": 0,
-  "originalBottomRow": 5,
-  "originalTopRow": 0,
+  "originalBottomRow": 6,
+  "originalTopRow": 1,
   "overflow": "NONE",
   "parentColumnSpace": 8.6650390625,
   "parentId": "0bw2f7zunw",
@@ -55,7 +55,7 @@
   "text": "Editar Perfil",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 0,
+  "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

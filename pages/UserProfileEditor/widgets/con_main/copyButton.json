@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 6,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
   "buttonVariant": "TERTIARY",
@@ -60,7 +60,7 @@
   ],
   "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
   "tooltip": "Copiar Perfil",
-  "topRow": 0,
+  "topRow": 1,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "79zyqc5e58",

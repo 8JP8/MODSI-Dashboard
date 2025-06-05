@@ -2,7 +2,7 @@
   "animateLoading": true,
   "backgroundColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 27,
+  "bottomRow": 29,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -48,7 +48,7 @@
   "text": "<b>Grupo:</b> {{\n  (appsmith.store.userGroup || \"\")\n    .toString()\n    .charAt(0)\n    .toUpperCase() + \n  (appsmith.store.userGroup || \"\")\n    .toString()\n    .slice(1)\n    .toLowerCase()\n}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 23,
+  "topRow": 25,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

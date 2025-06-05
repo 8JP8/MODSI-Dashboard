@@ -1,4 +1,4 @@
 {
-	"Value_1" : {{appsmith.store.KPIUpdate_currentValue_1}},	
+	"Value_1" : {{appsmith.store.KPIUpdate_currentValue_1}},
 	"Value_2" : {{appsmith.store.KPIUpdate_currentValue_2}}
 }

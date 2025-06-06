@@ -47,7 +47,7 @@
   "tags": [
     "Buttons"
   ],
-  "tooltip": "Refresh",
+  "tooltip": "",
   "topRow": 10,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,

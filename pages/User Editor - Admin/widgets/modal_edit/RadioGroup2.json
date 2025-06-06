@@ -11,16 +11,24 @@
     },
     {
       "key": "defaultOptionValue"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "start",
   "isDisabled": false,
   "isInline": true,
   "isLoading": false,
   "isRequired": false,
-  "isVisible": true,
+  "isVisible": "{{appsmith.store.userRole == \"System Administrator\" || appsmith.store.userGroup == \"ADMIN\"}}",
   "key": "2shc85lthy",
   "label": "Permissão de Acesso",
   "labelAlignment": "left",

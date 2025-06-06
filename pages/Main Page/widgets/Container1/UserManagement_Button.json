@@ -27,7 +27,7 @@
   "iconAlign": "left",
   "iconName": "blocked-person",
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{appsmith.store.userRole != \"System Administrator\" && appsmith.store.userGroup != \"ADMIN\"}}",
+  "isDisabled": "{{appsmith.store.userRole != \"System Administrator\" && appsmith.store.userRole != \"HR Manager\" && appsmith.store.userGroup != \"ADMIN\"}}",
   "isLoading": false,
   "isVisible": true,
   "key": "xoz5palb09",

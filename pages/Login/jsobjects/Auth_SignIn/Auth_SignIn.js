@@ -8,7 +8,7 @@ export default {
 
     try {
 			// Hash password
-      await Auth_PasswordCheck.getSaltAndHash(inp_password.text, false);
+      try { await Auth_PasswordCheck.getSaltAndHash(inp_password.text, false); } catch {}
 			
 			// Attempt login
       const loginResponse = await Login_GetAuthToken.run();

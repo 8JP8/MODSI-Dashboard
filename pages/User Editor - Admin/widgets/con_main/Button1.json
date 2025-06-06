@@ -15,6 +15,14 @@
     },
     {
       "key": "text"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicTriggerPathList": [
@@ -25,7 +33,7 @@
   "iconAlign": "left",
   "iconName": "new-person",
   "isDefaultClickDisabled": true,
-  "isDisabled": false,
+  "isDisabled": "{{appsmith.store.userRole != \"System Administrator\" && appsmith.store.userGroup != \"ADMIN\"}}",
   "isLoading": false,
   "isVisible": true,
   "key": "3eazvqvsct",

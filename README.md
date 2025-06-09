@@ -20,8 +20,6 @@ The application is built on the Appsmith low-code platform and integrates with t
     *   **`jsonwebtoken`**: Utilized for decoding and handling JSON Web Tokens (JWTs) for secure, token-based authentication.
     *   **`bcryptjs`**: Used for secure password hashing, ensuring that user passwords are not stored in plaintext.
 
----
-
 ## 3. Application Pages & Functionality
 
 The application is divided into several pages, each serving a distinct purpose.

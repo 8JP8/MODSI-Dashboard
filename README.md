@@ -1,4 +1,4 @@
-# MODSI-WebApp: Application Documentation
+# MODSI-WebApp-Dashboard: Application Documentation
 
 ## 1. Overview
 

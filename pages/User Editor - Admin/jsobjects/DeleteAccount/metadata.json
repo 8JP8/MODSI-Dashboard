@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "680277a22638894e86dc32cf_7e064071-79fb-4a27-9559-33a318b3a5f4",
+  "id": "User Editor - Admin_DeleteAccount",
+  "unpublishedCollection": {
+    "name": "DeleteAccount",
+    "pageId": "User Editor - Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -11,6 +11,7 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -39,7 +40,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{closeModal(modal_edit.name);}}",
+  "onClick": "{{closeModal(modal_edit.name).then(() => {});\nDeleteAccount.resetConfirmation();}}",
   "parentId": "zey7dt9vs1",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",

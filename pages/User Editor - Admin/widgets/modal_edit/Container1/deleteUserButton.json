@@ -1,14 +1,17 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 12,
   "boxShadow": "none",
-  "buttonColor": "#3f3f46",
+  "buttonColor": "#ef4444",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicTriggerPathList": [
@@ -17,23 +20,21 @@
     }
   ],
   "iconAlign": "left",
-  "iconName": "key",
+  "iconName": "trash",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "xxqvenzgrd",
+  "key": "xmjxihyfpr",
   "leftColumn": 0,
   "minWidth": 120,
-  "mobileBottomRow": 29,
-  "mobileLeftColumn": 46,
-  "mobileRightColumn": 62,
-  "mobileTopRow": 25,
+  "mobileBottomRow": 16,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 12,
   "needsErrorInfo": false,
-  "onClick": "{{PasswordResetRequest.run()}}",
-  "originalBottomRow": 12,
-  "originalTopRow": 8,
-  "parentColumnSpace": 7.875,
+  "onClick": "{{DeleteAccount.handleDelete();}}",
+  "parentColumnSpace": 3.37890625,
   "parentId": "yajrc74vjw",
   "parentRowSpace": 10,
   "placement": "CENTER",
@@ -41,11 +42,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
-  "text": "Redefinir Password",
-  "topRow": 4,
+  "rightColumn": 64,
+  "text": "{{appsmith.store.deleteUserButton_Text ?? \"Apagar Conta\"}}",
+  "topRow": 8,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "t2zulzcobx",
-  "widgetName": "btn_changepass"
+  "widgetId": "zob19tcwze",
+  "widgetName": "deleteUserButton"
 }

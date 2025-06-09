@@ -33,7 +33,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{UpdateUser.run().then(() => {\n  GetAllUsers.run().then(() => {\n    // resetWidget(tbl_users);\n  });\n  closeModal('');\n});}}",
+  "onClick": "{{UpdateUser.run().then(() => {\n  GetAllUsers.run().then(() => {});\n  closeModal('');\n  showAlert('Colaborador verificado', 'success');\n});}}",
   "originalBottomRow": 49,
   "originalTopRow": 45,
   "parentId": "jz3o96v2rm",

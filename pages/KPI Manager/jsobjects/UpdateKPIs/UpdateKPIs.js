@@ -16,6 +16,6 @@ export default {
       }
     };
 		await GetDepartmentKPIs.run(); //Reset the table
-		showAlert("Atualização bem sucedida", "success");
+		showAlert("Valores atualizados com sucesso", "success");
   }
 };

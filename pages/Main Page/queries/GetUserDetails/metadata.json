@@ -12,7 +12,12 @@
       "formData": {
         "apiContentType": "none"
       },
-      "headers": [],
+      "headers": [
+        {
+          "key": "Authorization",
+          "value": "{{appsmith.store.authToken}}"
+        }
+      ],
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
@@ -38,6 +43,9 @@
       },
       {
         "key": "path"
+      },
+      {
+        "key": "headers[0].value"
       }
     ],
     "name": "GetUserDetails",

@@ -42,7 +42,7 @@ export default {
           return false;
         }
 
-        if (userDetails.Role === null) {
+        if (userDetails.Role === null || userDetails.Role == "n.d.") {
           showAlert(
             "Ainda não foi aprovado para entrar no sistema, aguarde pela aprovação de um administrador",
             "error"

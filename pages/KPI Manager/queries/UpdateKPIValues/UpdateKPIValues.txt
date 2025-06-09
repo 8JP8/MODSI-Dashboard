@@ -1,4 +1,14 @@
 {
-	"Value_1" : {{appsmith.store.KPIUpdate_currentValue_1}},
-	"Value_2" : {{appsmith.store.KPIUpdate_currentValue_2}}
+   // "Id": 3,
+   // "Name": "Customer Satisfaction",
+   // "Description": "Measures customer satisfaction level",
+   // "Unit": "%",
+    "Value_1": {{appsmith.store.KPIUpdate_currentValue_1}}
+    "Value_2": null//,
+   // "ByProduct": false,
+   // "AvailableInDepartments": [
+   //     "Executive",
+   //     "Technology",
+   //     "Marketing"
+   // ]
 }

@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 67,
+  "bottomRow": 69,
   "boxShadow": "none",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -44,7 +44,7 @@
     "Group",
     "IsVerified"
   ],
-  "columnUpdatedAt": 1748349081642,
+  "columnUpdatedAt": 1749481661386,
   "columnWidthMap": {
     "CreatedAt": 222,
     "Email": 218,
@@ -55,7 +55,7 @@
     "category": 103,
     "country": 139,
     "created": 140,
-    "customColumn1": 78,
+    "customColumn1": 81,
     "customColumn2": 89.28125,
     "dob": 159,
     "email": 240,
@@ -561,7 +561,7 @@
       "notation": "standard",
       "onClick": "{{showModal(modal_edit.name);}}",
       "originalId": "customColumn1",
-      "sticky": "",
+      "sticky": "left",
       "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -575,7 +575,7 @@
   "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": false,
-  "tableData": "{{GetAllUsers.data}}",
+  "tableData": "{{\n  (GetAllUsers.data || []).filter(user => user.Role !== 'n.d.')\n}}",
   "tags": [
     "Suggested",
     "Display"

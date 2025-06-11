@@ -31,6 +31,7 @@
     }
   },
   "columnOrder": [
+    "customColumn1",
     "Id",
     "Username",
     "Email",
@@ -42,18 +43,20 @@
     "Tel",
     "IsVerified"
   ],
-  "columnUpdatedAt": 1748196668329,
+  "columnUpdatedAt": 1749665490921,
   "columnWidthMap": {
     "Created": 135,
+    "CreatedAt": 208,
+    "Email": 161,
     "FullName": 182,
     "Full_Name": 211,
-    "Group": 131,
+    "Group": 86,
     "ID__": 97,
     "Id": 60,
     "Photo": 79,
     "Role": 168,
     "Username": 111,
-    "customColumn1": 122,
+    "customColumn1": 78,
     "customColumn2": 108,
     "status": 127,
     "step": 70,
@@ -114,6 +117,15 @@
     },
     {
       "key": "primaryColumns.IsVerified.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn1.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn1.buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -136,6 +148,9 @@
     },
     {
       "key": "primaryColumns.Role.onOptionChange"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -171,7 +186,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
-      "columnType": "text",
+      "columnType": "date",
       "computedValue": "{{(() => { const tableData = tbl_users.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"CreatedAt\"])) :  currentRow[\"CreatedAt\"] })()}}",
       "currencyCode": "USD",
       "decimals": 0,
@@ -181,6 +196,7 @@
       "horizontalAlignment": "LEFT",
       "id": "CreatedAt",
       "index": 5,
+      "inputFormat": "YYYY-MM-DDTHH:mm:ss",
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -189,9 +205,10 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "CreatedAt",
+      "label": "Data de Criação",
       "notation": "standard",
       "originalId": "CreatedAt",
+      "outputFormat": "YYYY-MM-DD hh:mm:ss",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -430,7 +447,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "Cargo",
       "menuButtonLabel": "Escolher",
       "menuButtoniconName": "th-list",
@@ -512,6 +529,47 @@
       "notation": "standard",
       "originalId": "Username",
       "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn1": {
+      "alias": "Editar",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{tbl_users.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{tbl_users.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "{{tbl_users.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "buttonVariant": "TERTIARY",
+      "columnType": "iconButton",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "iconName": "edit",
+      "id": "customColumn1",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Editar",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{storeValue('EditBTPressed', 'true').then(() => {\n  showModal(modal_confirmation.name);\n});}}",
+      "originalId": "customColumn1",
+      "sticky": "left",
       "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,

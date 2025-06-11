@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "<b>Data de criação da conta: </b>{{moment(tbl_users.selectedRow.CreatedAt).format(\"DD-MM-YYYY HH:mm:ss\")}}",
+  "text": "<b>Data de criação da conta: </b>{{moment(appsmith.store.EditBTPressed == \"true\" ? tbl_users.triggeredRow.CreatedAt : tbl_users.selectedRow.CreatedAt).format(\"DD-MM-YYYY HH:mm:ss\")}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 26,

@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "<b>Telefone: </b>{{tbl_users.selectedRow.Tel ?? \"n.d.\"}}",
+  "text": "<b>Telefone: </b>{{(appsmith.store.EditBTPressed == \"true\" ? tbl_users.triggeredRow.Tel : tbl_users.selectedRow.Tel) ?? \"n.d.\"}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 22,

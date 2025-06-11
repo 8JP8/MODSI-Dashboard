@@ -31,7 +31,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(modal_confirmation.name);}}",
+  "onClick": "{{closeModal(modal_confirmation.name).then(() => {\n  removeValue('EditBTPressed');\n});}}",
   "parentId": "jz3o96v2rm",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",

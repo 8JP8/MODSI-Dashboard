@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "<b>Nº de Identificação: </b>{{tbl_users.selectedRow.Id}}",
+  "text": "<b>Nº de Identificação: </b>{{appsmith.store.EditBTPressed == \"true\" ? tbl_users.triggeredRow.Id : tbl_users.selectedRow.Id}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 6,

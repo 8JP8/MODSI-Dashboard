@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "<b>Nome de Utilizador: </b>{{tbl_users.selectedRow.Username}}",
+  "text": "<b>Nome de Utilizador: </b>{{appsmith.store.EditBTPressed == \"true\" ? tbl_users.triggeredRow.Username : tbl_users.selectedRow.Username}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 10,

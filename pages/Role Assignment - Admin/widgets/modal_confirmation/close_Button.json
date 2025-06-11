@@ -32,7 +32,7 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{closeModal(modal_confirmation.name);}}",
+  "onClick": "{{closeModal(modal_confirmation.name).then(() => {\n  removeValue('EditBTPressed');\n});}}",
   "originalBottomRow": 46,
   "originalTopRow": 42,
   "parentId": "jz3o96v2rm",

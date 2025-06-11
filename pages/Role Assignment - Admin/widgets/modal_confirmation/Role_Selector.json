@@ -45,6 +45,8 @@
   "needsErrorInfo": false,
   "optionLabel": "label",
   "optionValue": "value",
+  "originalBottomRow": 38,
+  "originalTopRow": 34,
   "parentColumnSpace": 6.9375,
   "parentId": "jz3o96v2rm",
   "parentRowSpace": 10,

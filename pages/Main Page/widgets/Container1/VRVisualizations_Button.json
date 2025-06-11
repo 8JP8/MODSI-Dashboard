@@ -30,7 +30,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 22,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('https://modsivr.pt/#/visualization-hub', {}, 'NEW_WINDOW');}}",
+  "onClick": "{{navigateTo('https://modsivr.pt/visualization-hub', {}, 'NEW_WINDOW');}}",
   "originalBottomRow": 42,
   "originalTopRow": 36,
   "parentColumnSpace": 14.234375,

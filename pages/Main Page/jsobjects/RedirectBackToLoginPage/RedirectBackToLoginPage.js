@@ -2,7 +2,7 @@ export default {
   checkAuthToken: async () => {
     if (!appsmith.store.authToken) {
       // Call redirectToLogin function if no authToken
-      await this.redirectToLogin();
+      this.redirectToLogin();
       return; // Stop further execution
     }
     try {
@@ -11,7 +11,7 @@ export default {
       // You can optionally handle error here
     }
     if (CheckToken.responseMeta.statusCode !== "200 OK") {
-      await this.redirectToLogin();
+      this.redirectToLogin();
     }
   },
 

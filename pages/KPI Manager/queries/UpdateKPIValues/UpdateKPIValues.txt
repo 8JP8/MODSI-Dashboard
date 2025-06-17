@@ -4,8 +4,8 @@
    // "Description": "Measures customer satisfaction level",
    // "Unit": "%",
     "Value_1": {{appsmith.store.KPIUpdate_currentValue_1}},
-    "Value_2": null//,
-   // "ByProduct": false,
+    "Value_2": {{appsmith.store.KPIUpdate_currentValue_2}},
+    "ByProduct": {{appsmith.store.KPIUpdate_byProduct}}
    // "AvailableInDepartments": [
    //     "Executive",
    //     "Technology",

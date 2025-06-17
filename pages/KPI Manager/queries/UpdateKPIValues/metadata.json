@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n   // \"Id\": 3,\n   // \"Name\": \"Customer Satisfaction\",\n   // \"Description\": \"Measures customer satisfaction level\",\n   // \"Unit\": \"%\",\n    \"Value_1\": {{appsmith.store.KPIUpdate_currentValue_1}},\n    \"Value_2\": null//,\n   // \"ByProduct\": false,\n   // \"AvailableInDepartments\": [\n   //     \"Executive\",\n   //     \"Technology\",\n   //     \"Marketing\"\n   // ]\n}",
+      "body": "{\n   // \"Id\": 3,\n   // \"Name\": \"Customer Satisfaction\",\n   // \"Description\": \"Measures customer satisfaction level\",\n   // \"Unit\": \"%\",\n    \"Value_1\": {{appsmith.store.KPIUpdate_currentValue_1}},\n    \"Value_2\": {{appsmith.store.KPIUpdate_currentValue_2}},\n    \"ByProduct\": {{appsmith.store.KPIUpdate_byProduct}}\n   // \"AvailableInDepartments\": [\n   //     \"Executive\",\n   //     \"Technology\",\n   //     \"Marketing\"\n   // ]\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

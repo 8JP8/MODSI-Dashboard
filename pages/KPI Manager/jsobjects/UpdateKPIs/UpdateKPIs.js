@@ -6,7 +6,7 @@ export default {
       const row = updatedRows[i];
 
       try {
-				await storeValue("KPIUpdate_currentID", KPIs_Table.updatedRows[i].Id);
+				await storeValue("KPIUpdate_currentID", KPIs_Table.updatedRows[i].allFields.Id);
 				await storeValue("KPIUpdate_currentValue_1", KPIs_Table.updatedRows[i].allFields.Value_1);
 				await storeValue("KPIUpdate_currentValue_2", KPIs_Table.updatedRows[i].allFields.Value_2);
         await UpdateKPIValues.run();

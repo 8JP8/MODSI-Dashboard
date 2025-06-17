@@ -9,7 +9,7 @@ export default {
 				await storeValue("KPIUpdate_currentID", KPIs_Table.updatedRows[i].allFields.Id);
 				await storeValue("KPIUpdate_currentValue_1", KPIs_Table.updatedRows[i].allFields.Value_1);
 				await storeValue("KPIUpdate_currentValue_2", KPIs_Table.updatedRows[i].allFields.Value_2);
-				await storeValue("KPIUpdate_byProduct", KPIs_Table.updatedRows[i].allFields.Value_2);
+				await storeValue("KPIUpdate_byProduct", KPIs_Table.updatedRows[i].allFields.ByProduct);
         await UpdateKPIValues.run();
       } catch (error) {
         console.error(`Error updating row with ID ${row.id}:`, error);
